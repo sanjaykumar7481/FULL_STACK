@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task1</title>
+	<style>
+		#main{
+			display: flex;
+			height: 600px;
+			width: 1200px;
+		}
+		#left{
+			display: flex;
+			height: 600px;
+			width: 300px;
+			background-color: green;
+		}
+		#right{
+			float: right;
+			height: 600px;
+			width: 800px;
+			background-color: blue;
+		}
+		#left_con{
+			height: 600px;
+			width: 100px;
+		}
+		#left_box{
+			height: 150px;
+			width: 100px;
+		}
+		#right_top{
+			height: 100px;
+			width: 800px;
+			background-color: blue;
+		}
+		#right_bottom{
+			height: 500px;
+			width: 800px;
+			display: flex;
+		}
+		#right_left,#right_right{
+			height: 500px;
+			width: 400px;
+		}
+		#right_con_top{
+			height: 100px;
+			width: 400px;
+			background-color: purple;
+		}
+		#right_con_bottom{
+			height: 400px;
+			width: 400px;
+			display: flex;
+		}
+		#last_left{
+			height: 400px;
+			width: 200px;
+			background-color: lightpink;
+		}
+		#last_right{
+			height: 400px;
+			width: 200px;
+		}
+		#last_top,#last_bottom{
+			height: 200px;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+		<div id="main">
+			<div id="left">
+				<div id="left_con" style="background-color: red;">
+					<div id="left_box" style="background-color:yellow;"></div>
+					<div id="left_box" style="background-color: whitesmoke;"></div>
+					<div id="left_box"  style="background-color: red;"></div>
+					<div id="left_box"  style="background-color: green;"></div>
+				</div>
+				<div id="left_con"style="background-color: saddlebrown;"></div>
+				<div id="left_con" style="background-color: crimson;"></div>
+			</div>
+			<div id="right">
+				<div id="right_top"></div>
+				<div id="right_bottom">
+					<div id="right_left"style="background-color: bisque;"></div>
+					<div id="right_right">
+						<div id="right_con_top"></div>
+						<div id="right_con_bottom">
+							<div id="last_left"></div>
+							<div id="last_right">
+								<div id="last_top"></div>
+								<div id="last_bottom" style="background-color: orange;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

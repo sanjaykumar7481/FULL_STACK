@@ -1,0 +1,33 @@
+
+h1{
+	font-family: serif;
+	color:white;
+	border-radius: 3px;
+}
+div{
+	background-color: white;
+	border-radius: 5px;
+	position: relative;
+	left:100px;
+	top:100px;
+	height: 290px;
+	width:300px;
+	border-size:5%;
+	border-width:10px; 
+	border-color:black;
+}
+div:hover,div:active{
+	border-color: green;
+}
+body,html{
+	height: 100%;
+}
+p{
+	font-family: cursive;
+	text-align: auto;
+	font-size: 14px;
+}
+#grad{
+	background-image: linear-gradient(purple,pink);
+	height: 100%;
+}

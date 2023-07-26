@@ -1,0 +1,15 @@
+table{
+	background-color: black;
+	border-radius: 5px;
+	border-color: white;
+	border-width: 5px;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+th{
+	text-decoration: none;
+	size:large;
+
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Technical HUB</title>
+	<link rel="icon" href="">
+	<style>
+		*{
+			margin: 0;
+			border: 0;
+		}
+		body{
+			background-image: url(tcs.jpg);
+			background-size: 100%;
+		}
+		#links{
+			float: right;
+			margin-top: 30px;
+			display: flex;
+			height: 100px;
+			width: 600px;
+		}
+		#nav_tag{
+			border: 10px solid transparent;
+			height:100px;
+			width:120px;
+			font-size: 20px;
+			margin: auto;
+		}
+		header{
+			height: 100px;
+			width: fill;
+		}
+		.link{
+			color: white;
+			text-decoration: none;
+			font-family: sans-serif;
+		}
+		.link:hover{
+			color: springgreen;
+			text-decoration: underline;
+			
+		}
+		.drop_home{
+			position: relative;
+			display: inline-block;
+		}
+		.drop_home-content{
+			display: none;
+			height: 150px;
+			width: 180px;
+			border-radius: 5px;
+			margin-top: 30px;
+			text-decoration: none;
+			color: white;
+		}
+		.drop_home:hover .drop_home-content {
+			display: block;
+			background-color:black;
+			font-size: 18px;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+		}
+		li{
+			margin:10px auto 10px auto;
+		}
+		a:hover
+		{
+			color: springgreen;
+			text-decoration: underline;
+		}
+		img{
+			float: left;
+		}
+	</style>
+</head>
+<body>
+		<header>
+			<img src="Thub_logo.png">
+			<div id="links">
+					<div class="drop_home" id="nav_tag">
+						<a href="" id="home" class="link">home</a>
+						 <div class="drop_home-content">
+							<ul >
+								<li><a href="#">T CONNECT</a></li>
+								<li><a href="#">DRIVE-READY</a></li>
+								<li><a href="#">TSE</a></li>
+								<li><a href="#">CODING</a></li>
+							</ul>
+						</div>
+					</div>
+				<div id="nav_tag">
+					<a href="" id="actions" class="link">Actions</a>
+					<!-- <div class="drop_home-content">
+							<ul>
+								<li><a>hi</a></li>
+								<li><a>hello</a></li>
+								<li><a>imagine</a></li>
+								<li><a>visible</a></li>
+							</ul>
+						</div> -->
+				</div>
+				<div id="nav_tag">
+					<a href="" id="paths" class="link">paths</a>
+				</div>
+				<div id="nav_tag" >
+					<a href="" class="link">placement</a>
+				</div>
+				<div id="nav_tag" >
+					<a href="" class="link">contact</a>
+				</div>
+				<div id="nav_tag" >
+					<a href="" class="link">Team</a>
+				</div>
+			</div>
+		</header>
+</body>
+</html>
