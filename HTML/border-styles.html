@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>border</title>
+	<style >
+		#outer{
+			border:10px dotted red;
+			width: fit-content;
+		}
+		#main{
+			height: 200px;
+			width: 400px;
+			background-color: lightpink;
+			text-align: center;
+			padding-top:20px;
+		}
+		#outer2{
+			background-color: lightblue;
+			border: 10px dashed red;
+			height: fit-content;
+			width: fit-content;
+		}
+		#second{
+			height: 300px;
+			width: 400px;
+			text-align: center;
+			background-color: white;
+/*			background-clip: content-box;*/
+			box-shadow: 0 0 0 10px lightblue;
+			outline:10px dashed red;
+		}
+	</style>
+</head>
+<body>
+		<div id="outer"><div id="main">Sanjay Bravestone</div></div>
+		<br><br>
+		<!-- <div id="outer2"><div id="second">Sanjay sahoo</div></div>
+		<br><br> -->
+		<div id="second">Sanjay sahoo</div>
+</body>
+</html>

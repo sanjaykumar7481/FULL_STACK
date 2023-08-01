@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Epam</title>
+	<style>
+		img{
+			height: 100px;
+			width: 200px;
+		}
+		table{
+			box-sizing: 0px 0px 3px grey;
+		}
+		a{
+			padding-right: 20px;
+		}
+		header{
+			box-sizing: 5px 5px 3px black;
+			width: fit-content;
+			height: fit-content;
+		}
+		input{
+/*			margin-left: 5px;*/
+			margin-bottom: 5px;
+		}
+		#main{
+			display: flex;
+		}
+		#design{
+			height: fill;
+			width: 400px;
+			background-color: lightgray;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<div id="design"></div>
+		<div>
+			<center><img src="EPAM_BIG.png"></center>
+		<h1>HTML Elements</h1>
+		<header style="background-color:snow;">
+			<a href="epam_task.html">Home</a>
+			<a href="#heading">Headers</a>
+			<a href="#table__">Table</a>
+			<a href="#Lists">List</a>
+			<a href="#Textformats">Textformats</a>	
+			<a href="#Blockquotes">Blockquotes</a>
+			<a href="#forms"> fill the form</a>
+		</header>
+		<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here</p>
+		<div id="heading">
+		<h2>Header2</h2>
+		<h3>Header3</h3>
+		<h4>Header4</h4>
+		<h5>Header5</h5>
+		<h6>Header6</h6>
+		<p>There are many <b>variations</b> of passages of Lorem Ipsum available, but the majority <e>have suffered</e> alteration in some form, by injected <u>humour</u>, or randomised words which don't look even slightly believable. 5<sup>2</sup>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden H<sub>2</sub>O in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat <i>predefined</i> chunks as necessary, making this the first true generator on the Internet. It uses a <mark>dictionary of over 200 Latin words</mark>, combined with a handful of model sentence structures, to generate <s>Lorem Ipsum</s> which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+</p><br><br>
+		<p>
+			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here
+		</p>
+		</div>
+		<div id="table__">
+		<h1>Table</h1>
+		<table border="1px solid black" cellspacing="0">
+		<tbody>
+			<tr>
+				<th rowspan="11">TCB</th>
+				<th> Order no:</th>
+				<td colspan="3">#ABC001</td>
+			</tr>
+			<tr>
+				<th>Order Date:</th>
+				<td colspan="3">23-Mar-2016</td>
+			</tr>
+			<tr>
+				<th colspan="4">Customer</th>
+			</tr>
+			<tr>
+				<th>Name:</th>
+				<td colspan="3">John papas</td>
+			</tr>
+			<tr>
+				<th>Address:</th>
+				<td colspan="3">Independence Day 5th str,11511</td>
+			</tr>
+			<tr>
+				<th colspan="4">Order Details</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Of Mice and Men</td>
+				<td>Book</td>
+				<td>10.00€</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Les Miserables</td>
+				<td>Book</td>
+				<td>12.00€</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Game of Thrones -S01</td>
+				<td>DVD</td>
+				<td>50.00€</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Samsung Galaxy</td>
+				<td>Mobile Phone</td>
+				<td>200.00€</td>
+			</tr>
+			<tr>
+				<th colspan="3"style="text-align: right;">Total</th>
+				<td>272.00€</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div id="Lists">
+			<h1>Unordered List and ordered List</h1>
+		<ul>
+		<li>AAAAAAAA</li>
+		<li>BBBBBBBBBBBBB
+			<ol>
+		<li>CCCCCCCC</li>
+		<li>DDDDDDDDD</li>
+		<li>EEEEEEEEE</li>
+	</ol>
+		</li>
+		<li>FFFFFFFFF</li>
+		<li>GGGGGGG
+				<ol>
+					<li>IIIIIIIII</li>
+					<li>JJJJJJJJ
+							<ol type="I">
+								<li>kkkkkkkkkkkkkkkkk</li>
+								<li>LLLLLLLLLLLLL</li>
+								<li>HHHHHHHHHHHHH</li>
+							</ol>
+					</li>
+				</ol>
+		</li>
+	</ul>
+	<br><br>
+	<h1>Definition List</h1>
+	<dl>
+		<dt>CSS</dt>
+		<dd>Cascading style sheets</dd>
+		<dt>HTML</dt>
+		<dd>Hyper text markup language</dd>
+	</dl>
+	<label>Details</label>
+	<select>
+		<option>HTML</option>
+	</select>
+</div>
+		<h1 id="Textformats">Text formats</h1>
+        <p><b>Article Text</b></p>
+        <p><i>Article title</i></p>
+        <p><small>Article description</small></p>
+
+        <h2>Preformatted Text</h2>
+        <div style="height: 175px;width: 900px; background-color: lightgray;margin-left: 30px;padding-left: 50px; ">
+        	<p><pre>Text<br>in a pre element
+             is displayed in a fixed width<br>font,and it preserves<br>both<br>spaces and<br>line breaks</pre>
+
+        </p>
+        </div>
+        <h1>code</h1>
+        <div style="height:175px;width:900px;
+        background-color: lightgray; margin-left:30px;padding-left: 30px;">
+        	<p style="padding-bottom: 20px; "><pre>.wrapper{<br>display: flex;<br>vertical-align:middle;<br>justify-content:center;<br>}</pre>
+        	</p>
+        </div>
+        <h3 id="Blockquotes">Blockquotes</h3>
+        <p>Let's keep it simple.Italics are good to help set it off from the body text.Be sure to style the citation.</p>
+        <blockquote><i>
+        	"If you go back a few hundred years,what we take for granted today would seem like magic-being able to talk to people over long distances,to transmit images,flying accessing vast amounts of data like an oracle.These are all things that would been considered magic a few hundred years ago."
+
+        </i></blockquote>
+        	<a style="padding: 0px; padding-left:35px ;font-size: 16px; " href="https://en.wikipedia.org/wiki/Elon_Musk"><i>ElonMusk</i></a>
+        	<hr>
+        <br><br>
+		<form id="forms" align="right">
+			<label >Name:</label><input type="text" name="first_name"><br>
+			<label >Surname:</label>
+			<input type="text" name="sur-name"><br>
+			<label >email:</label>
+			<input type="email" name="Email"><br>
+			<textarea style="width: 200px; height: 300px;"></textarea><br>
+			<input type="submit" style="width:200px; height: 40px;">
+		</form>
+		<br>
+		<footer style="background-color:lightgrey; height: 150px; width: fill;"><center><p style="padding-top:50px;">&#169 Copyright Epam Systems</p></center></footer>
+		</div>
+		<div id="design"></div>
+	</div>
+</body>
+</html>

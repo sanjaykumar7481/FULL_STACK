@@ -1,0 +1,26 @@
+#first{
+	height: 1000px;
+	width: 1000;
+	background-image: url(travel_Agence.png);
+	background-size:cover;
+}
+header{
+	height: 70px;
+	width: fill;
+/*	background-color: red;*/
+}
+#menu{
+	float: right;
+	height:50px;
+	width: 50px;
+	background-color: black;
+	margin:20px;
+}
+#logo{
+	float:left;
+	padding-left: 20px;
+	font-size: 30px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color:gray;
+}

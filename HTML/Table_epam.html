@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Thub Task</title>
+	<style type="text/css">
+		a[href]{
+			word-spacing: 40px;
+			padding-left: 60px;
+			font-size: 25px;
+		}
+		p{
+			font-size: 18px;
+		}
+		input[type="text"]{
+	color: red;
+	background-color: lightgray;
+	margin-right: 30px;
+}
+input[type="email"]{
+	color: red;
+	background-color: lightgray;
+}
+		
+
+	</style>
+</head>
+<body>
+	<div style="height: 5000px; width: 1500px; background-color:  lightgray;">
+		
+		<div style="height: 3000px; width:1000px; background-color: white; margin-left: 200px; margin-top: 10px; padding-left: 15px; ">
+		<h1>HTML Elements</h1>
+		<hr>
+		<a href="#home">Home</a>
+		<a href="#Headers">Headers</a>
+        <a href="#Table">Table</a>
+        <a href="#List">List</a>
+        <a href="#Text format">Textformats</a>
+        <a href="#Blockquotes">Blockquotes</a>
+        <hr>
+        <p id="headers">
+        	Pay attention to h1 tag inside section element.Font-size for h1 is the same as font-size for h2,because we have to use only one h1 on the page,and it is commonly used inside header
+        </p><br><br>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+        <hr>
+        <p>Lorem ipsum dolor sit amet,<a style="padding: 0px;font-size: 20px; " href="">testlink</a> consectetur adipiscing elit.<strong>This is strong</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.5<sup>3</sup>=125.water is H<sub>2</sub>O Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><hr>
+        <h2 id="Table">Table</h2>
+        <table border="1" cellspacing="0" style="width: 500px; height: 150px;">
+        	
+        		<tr>
+        			<th>Header</th>
+        			<th>Header</th>
+        			<th>Header</th>
+        		</tr>
+        	
+        	    <tr>
+        	    	<td>Lviv</td>
+        	    	<td>Kyiv</td>
+        	    	<td>Kharkiv</td>
+        	    </tr>
+
+        	    <tr>
+        	    	<td>Odessa</td>
+        	    	<td>Zhytomyr</td>
+        	    	<td>Dnipro</td>
+        	    </tr>
+        	    <tr>
+        	    	<td>Sunny</td>
+        	    	<td>Chernivtsi</td>
+        	    	<td>Lutsk</td>
+        	    </tr>
+        </table>
+
+
+        <h1 id="List">Unordered List</h1>
+        <ul>
+		<li>List item1</li>
+		<li>List item2</li>
+		<ul>
+			<li>Some nested list item1 </li>
+		</ul>
+		<li>List item3</li>
+	</ul>
+
+	<h1>Ordered List</h1>
+	<ol>
+		<li>List item1</li>
+		<li>List item2</li>
+		<ol type="A">
+			<li>Some nested list item1</li>
+		</ol>
+		<li>List item3</li>
+	</ol>
+        	
+       <h1>Definition List</h1>
+       <dl>
+       	<dd><B>defines terms1</B></dd>
+       	<dd>description 1</dd>
+       	<br>
+       	<dd><B>defines terms2</B></dd>
+       	<dd>description 2</dd>
+
+       </dl>
+       <label style="padding-left: 20px;">Details:</label>
+       <select>
+			<option>---select---</option>
+			<option>html</option>
+			<option>css</option>
+			<option>juavascript</option>
+		</select> 	
+
+        <h1 id="Text format">Text formats</h1>
+        <p><b>Article Text</b></p>
+        <p><i>Article title</i></p>
+        <p><small>Article description</small></p>
+
+        <h2>Preformatted Text</h2>
+        <div style="height: 175px;width: 900px; background-color: lightgray;padding-left: 70px; ">
+        	<p><pre>Text<br>in a pre element
+             is displayed in a fixed width<br>font,and it preserves<br>both<br>spaces and<br>line breaks</pre>
+
+        </p>
+        </div>
+
+        <h1>code</h1>
+        <div style="height:175px;width:900px;
+        background-color: lightgray; padding-left:70px;">
+        	<p style="padding-bottom: 20px; "><pre>.wrapper{<br>display: flex;<br>vertical-align:middle;<br>justify-content:center;<br>}</pre>
+        		
+        	</p>
+
+        </div>
+        <h3 id="Blockquotes">Blockquotes</h3>
+        <p>Let's keep it simple.Italics are good to help set it off from the body text.Be sure to style the citation.</p>
+        <blockquote><i>
+        	"If you go back a few hundred years,what we take for granted today would seem like magic-being able to talk to people over long distances,to transmit images,flying accessing vast amounts of data like an oracle.These are all things that would been considered magic a few hundred years ago."
+
+        </i></blockquote>
+        	<a style="padding: 0px; padding-left:35px ;font-size: 16px; " href="https://en.wikipedia.org/wiki/Elon_Musk"><i>ElonMusk</i></a>
+        	<hr>
+        	<form>
+        	<aside style="float: right; "  >
+        		<label>First name</label>
+		<input type="text"  value=""  ><br>
+		<label style="margin-right: 10px;">surname:</label>
+		<input type="text"  value=""><br>
+		<label style="margin-right: 25px;">Email:</label>
+		<input type="email" ><br>
+		<input style="height: 150px; background-color: lightgray;  float: right; margin-right: 30px;" type="" name="qqaa"><br><br><br><br><br><br><br><br><br>	
+		<button style=" width: 160px;margin-right: 35px;float: right; background-color: lightgray;">Submit</button>
+          </form>
+
+
+        	</aside>
+        	<div style="height: 250px;width:500px; background-color: white;  "></div>
+
+
+        	<div style="height:50px;width:970px; background-color: lightgray; padding-bottom:50px;">
+        		<footer>
+        			<p style="padding-bottom: 20px;"><center>&copy;copyright Epam Systems</center></p>
+        		</footer>
+        	</div>
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+</body>
+</html>
