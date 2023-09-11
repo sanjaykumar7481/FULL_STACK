@@ -154,14 +154,6 @@ function high()
     }
 }
 function celb(){
-    const s=document.getElementById("cel");
-    if(ans==0){
-        document.getElementById("winner").innerText='O';
-    }
-    else if(ans==1){
-        document.getElementById("Winner").innerText='X';
-    }
-    console.log(ans);
     document.getElementById("osc").innerText=os;
     document.getElementById("xsc").innerText=xs;
     document.getElementById("dr").innerText=dr;
