@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>tick tac toe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <script src="scipt.js"></script>
+    <center><header id="head">
+        <div class="header mb-5">
+            <h1>TIC TAC TOE</h1><br>
+            <h1 id="head">'<span id="player"></span>' is next</h1>
+        </div>
+    </header></center>
+            <table class="container ms-auto me-auto mt-5" >
+                <tr class="row">
+                    <td class="col-md-4 col-lg-4 col-xs-4 box" id="1" onclick="keep(this.id)"> </td>
+                    <td class="col-md-4 col-lg-4 col-xs-4 box" id="2" onclick="keep(this.id)"> </td>
+                    <td class="col-md-4 col-lg-4 col-xs-4 box" id="3" onclick="keep(this.id)"> </td>
+                </tr>
+                <tr class="row">
+                    <td class="col-md-4 col-lg-4 col-xs-4 box" id="4"onclick="keep(this.id)"></td>
+                    <td class="col-md-4 col-lg-4 col-xs-4 box" id="5"onclick="keep(this.id)"></td>
+                    <td class="col-md-4 col-lg-4 col-xs-4 box" id="6"onclick="keep(this.id)"></td>
+                </tr>
+                <tr class="row">
+                    <td class="col-md-4 col-lg-4 col-xs-4 box" id="7"onclick="keep(this.id)"></td>
+                    <td class="col-md-4 col-lg-4 col-xs-4 box" id="8"onclick="keep(this.id)"></td>
+                    <td class="col-md-4 col-lg-4 col-xs-4 box" id="9"onclick="keep(this.id)"></td>
+                </tr>
+            </table>
+            <div class="pop_up">
+            </div>
+            <button type="button" id="cel"class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"></button>
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                
+                <h4 class="modal-title">Game Results</h4>
+              </div>
+              <div class="modal-body">
+                  <h2><span id="winner"> </span> Won the match</h2>
+                  <h1>Player 'X' score: <span id="xsc"></span></h1>
+  
+                  <h1>Player 'O' score: <span id="osc"></span></h1>
+                
+                  <h1>Draws:<span id="dr"></span></h1>
+              </div>
+              <div class="modal-footer">
+                <a href="index.html"><button class="btn bg-primary">reset</button></a>
+                <a ><button class="btn bg-primary" onclick="cleaR()">Play again</button></a>
+                <button type="button" class="btn bg-danger" data-dismiss="modal" id="close">Close</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+</body>
+</html>

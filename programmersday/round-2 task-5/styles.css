@@ -1,0 +1,57 @@
+.box{
+    /* box-shadow: 0px 5px 2px 5px lightgray; */
+    border:5px solid  rgb(37, 41, 44);
+    border-radius: 5px;
+    font-size: 70px;
+    text-align: center;
+    color:rgb(244, 85, 27);
+    text-shadow: 2px 0 3px rgb(37, 41, 44);
+    background-color: aliceblue;
+    /* box-shadow: 3px 0 2px  */
+}
+.modal-footer h1{
+    color:black;
+}
+.modal-dialog{
+    margin-top: 200px;
+    height: fit-content;
+    width: 400px;
+}
+.modal-header{
+    color: rgb(31, 144, 214);
+}
+.modal-title{
+    font-size: 30px;
+    text-align: left;
+}
+#close{
+    visibility: hidden;
+}
+#cel{
+    visibility: hidden;
+}
+.container{
+    max-width: 600px;
+    height: fit-content;
+    width: fit-content;
+}
+.box{
+    height: 120px;
+    width: 120px;
+}
+.header{
+    height: fit-content;
+    width: fit-content;
+}
+#head{
+    margin-bottom: 50px;
+}
+body{
+    background-color: rgb(37, 41, 44);
+    background-repeat: no-repeat;
+}
+header h1{
+    color:rgb(246, 240, 240);
+    text-shadow: 3px 0 2px rgb(255, 108, 108);
+    font-size: 50px;
+}
