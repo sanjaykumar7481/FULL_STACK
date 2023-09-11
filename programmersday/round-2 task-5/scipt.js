@@ -168,6 +168,7 @@ function cleaR()
         document.getElementById(""+(i+1)).style="none";
     }
     ans=-1;
+    document.getElementById("player").innerText="";
     // console.log("ok");
     const p=document.getElementById("close");
     p.click();
