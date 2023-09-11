@@ -1,0 +1,13 @@
+.btn{
+	height: 50px;
+	width: 150px;
+	border:2px solid green;
+}
+.container{
+	margin: 100px 150px;
+	display: grid;
+	gap: 30px;
+}
+#right{
+	float: right;
+}

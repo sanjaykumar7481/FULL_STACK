@@ -1,0 +1,7 @@
+select,option{
+    border: none;
+    outline: none;
+}
+#header-1{
+    font-weight: 700;
+}

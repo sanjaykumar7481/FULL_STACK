@@ -1,0 +1,105 @@
+#box{
+	height: 200px;
+	width:330px;
+	box-shadow: 5px 0 10px lightgray;
+	margin:5px;
+	border-radius: 10px;
+	padding: 50px 20px;
+	display: flex;
+	justify-content: space-between;
+	gap: 50px;
+	box-sizing: border-box;
+}
+.container-fluid{
+	margin:50px;
+}
+#left{
+	float: left;
+}
+#right{
+	float:right;
+}
+#box-i{
+	height: 230px;
+	width:330px;
+	margin: 5px;
+	box-shadow: 5px 0 10px lightgray;
+	border-radius: 10px;
+	padding: 50px 20px;
+}
+.col{
+	height: fit-content;
+	width: fit-content;
+}
+.card{
+	height: fit-content;
+	width: fit-content;
+	border:none;
+	margin: 0;
+}
+.top{
+	height: 100px;
+	width:350px;
+	padding: 50px 20px;
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+}
+#icon{
+	font-size:80px;
+/*	margin-top: 30px;*/
+}
+#text{
+	color: gray;
+	font-family: sans-serif;
+}
+#head{
+	font-size: 50px;
+}
+#mat{
+	margin-top: -20px;
+	text-align: left;
+	font-size: 20px;
+}
+.progress{
+/*	margin-top:-50px;*/
+/*	margin-bottom: 30px;*/
+	margin-top:120px;
+	height: 10px;
+}
+.col1{
+	color: lightblue;
+}
+.col2{
+	color: red;
+}
+.col3{
+	color: orange;
+}
+.col4{
+	color: blue;
+}
+.col5{
+	color: green;
+}
+.col6{
+	color: yellow;
+}
+.col7{
+	color:purple;
+}
+.col8{
+	color: lightblue;
+}
+.col9{
+	color: violet;
+}
+.col10{
+	color: green;
+}
+.col11{
+	color: lightblue;
+}
+.col12{
+	color: red;
+}

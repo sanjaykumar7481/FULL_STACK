@@ -1,0 +1,21 @@
+.input-group{
+	border-sizing:2px 0 10px lightgray;
+}
+button{
+	width: 100%;
+}
+p{
+	font-family: sans-serif;
+	line-height: 1;
+	color: gray;
+}
+a{
+	text-decoration: none;
+}
+button i{
+	color:white;
+}
+i{
+	font-size: 20px;
+	color: gray;
+}
